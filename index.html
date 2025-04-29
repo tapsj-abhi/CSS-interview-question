@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CSS Interview Quesions</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>CSS Interview question</h1>
+
+  <h2>Q.1 Difference between flex row and column.?</h2>
+  <p>Flex Row: This arranges items horizontally along the main axis. <br>
+  Flex Column: This arranges items vertically along the main axis. </p>
+  <strong>Example</strong><br><br>
+  <div class="flex-row box-container ">
+    <div class="box">Technical</div>
+    <div class="box">Non Technical</div>
+  </div>
+
+  <strong>2nd Example</strong>
+  <div class="flex-column box-container">
+    <div class="box">Technical</div>
+    <div class="box">Non Technical</div>
+  </div>
+
+  <h2>Q.2 Explain inline , internal and external stylesheet</h2>
+<p></p>Inline Stylesheet: CSS styles applied directly to an HTML element using the style attribute within the tag. <br>
+Internal Stylesheet: CSS styles defined within a style tag in the head section of an HTML document.  <br>
+External Stylesheet: CSS styles defined in a separate .css file and linked to the HTML document using the link tag.
+ </p>
+ <Strong>Example 1</Strong>
+ <div style="color: blue; font-size: 16px;"> this is Inline - Cetpa Coaching</div><br>
+ <Strong>Example 2-  Changing background color</Strong>
+ <style>
+  body {
+    background-color: lightgray;
+  }
+</style>
+<h2>Q.3Justify-content allows you to do what?</h2>
+<p> It allows you to control the alignment of items when they do not take up all the available space along the main axis.</p>
+<Strong>Example 1</Strong>
+  <div class="justify-space-between box-container">
+    <div class="box">6 Months</div>
+    <div class="box">12 Months</div>
+  </div>
+
+  <h2>Q.4 Difference between absolute and relative positioni.?</h2>
+  <p>Relative -It can be adjusted using properties like top, bottom, left, and right relative to where it would normally appear. <br>
+    Absolute - Positions an element relative to its closest positioned or the initial containing block 
+   </p>
+   <h3>Q.5 What is the z-index in CSS?
+  </h3>
+  <p>Z-index property is workin on y axis.it is working on column. By default value is auto. it has 4 values.
+    1.auto
+    2.number
+    3.initial.
+    4.Inherit</p>
+   <Strong>Example 1</Strong>
+
+  <div class="relative-parent">
+    <div class="relative-box">Lakhwinder Sir</div>
+    <div class="absolute-box">Frontend</div>
+  </div>
+
+ 
+  <h2>Q.7 What is the difference between padding and margin?</h2>  
+  <p>Answers-->
+    
+
+Margin: The space outside the boundary of an element, which creates space between the element and surrounding elements. <br>
+    1.margin-top <br>
+    2.margin-right <br>
+    3.margin-bottom <br>
+    4.margin-left <br>
+    Padding: The space between the content of an element and its border. It's inside the element's boundary. <br>
+    The CSS padding property is used to create space inside the element. it has 4 values. <br>
+    1.padding-top <br>
+    2.padding-right <br>
+    3.padding-bottom <br>
+    4.padding-left</p>
+
+  <div class="padding-box">Rehan Sir</div>
+  <div class="margin-box">Dsa and core java</div>
+ 
+
+
+</body>
+</html>
